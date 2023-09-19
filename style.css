@@ -20,15 +20,9 @@ body {
   background-size: 100%;
 }
 
-#seconds {
-  position: absolute;
-  background-color: rgb(255, 0, 0);
-  opacity: 0.8;
-  border-radius: 20px;
-  transform-origin: bottom;
-}
 #hour,
-#minute {
+#minute,
+#seconds {
   position: absolute;
   background-color: rgb(0, 0, 0);
   opacity: 0.8;
